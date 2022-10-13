@@ -1,0 +1,97 @@
+## 1.0.0
+
+- New: zoom-in effect for lockscreen instead of zoom-out (can be switched in size section)
+- New: separate swipe and tilt effect intensity controls
+- New: interval selection for random wallpaper design option
+- Improved: Android 11 system zoom option removed as the integrated zoom effect is no longer jerky when tilt effect is enabled
+- Improved: workaround for Samsung's implementation of dynamic colors
+- Improved: 2-ring support for 24H clock in daily random time selection
+- Improved: display refresh rate handling when battery saver is enabled
+- Improved: app language selection
+- Improved: unified logo experience
+- Fixed: jerky zoom animation when tilt effect was turned on (finally!)
+- Fixed: occasional glitch during zoom animation after unlocking
+- New: option for sliding transition between settings pages and workaround for bug with blank settings subpages in help dialog
+- Improved: syncing of wallpaper design preferences when wallpaper is active
+- Improved: random wallpaper design options
+- Improved: custom color selection for extracted colors
+- Improved: disabled auto backup of settings through Google Drive because different devices require different configurations
+- Fixed: changed random wallpaper design when toggling dark mode and after device restart
+- Fixed: internal cleanup of wallpaper engine and a few potential crash fixes
+- Fixed: bug in language selection caused by duplicated code
+- New: complex shape intersecting for a new colorful wallpaper based on another artwork by Anna Kövecses
+- New: option for a daily random wallpaper design
+- New: workaround for Samsung's unfavorable implementation of dynamic colors on Android 12+ (appearance section)
+- New: system app language selection on Android 13
+- New: custom color selection for wallpaper colors
+- New: Japanese translation
+- New: themed app icon on Android 13
+- Improved: toggle logic for launcher text color
+- Improved: refreshed toggle switch style in settings
+- Improved: changelog style and help/license text appearance
+- Improved: changed method for haptic effects in settings app
+- Fixed: selection for random design option not stored
+- New: wallpaper with Android 12 setup design of Pixel 6
+- New: yellow and turquoise app color themes
+- New: Czech and Lithuanian translations
+- New: privacy policy link in about section
+- Improved: new help dialog accessible from top right menus and overview screen
+- Improved: simplified night mode option in appearance settings
+- Improved: app layout and dialog appearance on large screens
+- Improved: workaround for MIUI issue replaced by info in help dialog, since workaround didn't work
+- Improved: app color theme selection
+- Fixed: potential solution for blank settings pages
+- New: another autumnal Pixel 6 Material You wallpaper!
+- New: additional Dracula theme color variants in the Pixel 4 Doodle collection
+- New: battery saver options for page swipe animation, tilt and zoom effects
+- New: Finnish translation
+- Improved: separate reset button for shape scale to recalculate optimal scale based on display metrics
+- Improved: splash screen background color on Android 12
+- Fixed: dark status bar icons on dark wallpapers on some devices (finally, thanks Vivek!)
+- Fixed: random wallpaper not refreshing when lockscreen zoom was turned off
+- New: default shape scale based on display size and density (reset all options to let Doodle calculate the default shape scale)
+- New: FAQ in info section (tap info card on start page)
+- New: black (AMOLED) app theme (only with one static accent color due to internal reasons)
+- Improved: wallpaper design selection thumbnails and overview page appearance
+- Improved: method to determine if wallpaper is currently applied
+- Improved: tilt effect options hidden if device has no acceleration sensor
+- Improved: wallpaper restart not required to apply changed colors on Android 12 (my fault, turning off screen is enough)
+- Improved: system bars appearance for older Android versions
+- Fixed: provide a possible solution for MIUI bug that stops wallpaper animation (shown when you tap on "Set wallpaper")
+- Fixed: app theme dark mode switching on Android 12
+- Fixed: reset option didn't work as expected
+- Fixed: unwanted horizontal position changes of bottom messages and big button when switching between app sections
+- Fixed: some crashes and bugs
+- New: another sandy Pixel 6 wallpaper
+- New: random wallpaper option now lets you select your favourite designs
+- New: Arabic, Danish and Hebrew translations
+- New: additional blue and purple app themes
+- New: animation damping option for zoom effect on home screen (may be helpful if the zoom animation is jerky)
+- Improved: app theme selection and app colors
+- Improved: dynamic colors in app icon (Android 12+)
+- Improved: splash screen on Android 12+
+- Improved: bold text now correctly styled even if system font is used as fallback (currently Chinese, Hebrew and Uyghur)
+- Improved: automatic Google Drive backup of current preferences disabled (not helpful when switching to a new phone and annoying when reinstalling the app)
+- Improved: disabled options in parallax section now greyed out
+- Improved: hide system-provided zoom option on non-Android-11 devices as it was removed in Android 12
+- Improved: shape size settings structure and icons
+- Improved: thumbnail for system wallpaper picker
+- Fixed: unchanged text contrast when switching dark mode inside an app
+- Fixed: wrong animation on Android 12+ when app theme or language were changed
+- Fixed: random wallpaper option not working as expected
+- Fixed: hopefully some crashes
+- New: Dutch, Indonesian & Italian translations
+- Fixed: potential crashes and bugs
+- Fixed: crash caused by compiler
+- Fixed: crash caused by previously stored preferences
+- New: complete implementation of Material Design 3
+- New: dynamic colors in Doodle settings app for supported devices with Android 12+ (Material You)
+- New: various app color themes for devices without dynamic color support
+- New: option to change language (translated by amazing volunteers on Transifex, thank you all!)
+- New: another exclusive live wallpaper based on Pixel 6 wallpapers (still more to come!)
+- New: option for random wallpaper design every time the display is turned off
+- New: customizable extracted wallpaper colors for devices with dynamic color support
+- Improved: changed settings are applied to the running wallpaper instantly
+- Improved: restart behavior for applying certain settings
+- Improved: splash screen implementation for Android 12+
+- Fixed: broken buttons in feedback dialog

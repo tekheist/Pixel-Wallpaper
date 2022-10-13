@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ This file is part of Doodle Android.
+  ~
+  ~ Doodle Android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Doodle Android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Doodle Android. If not, see <http://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (c) 2019-2022 by Patrick Zedler
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+  <string name="wallpaper_description">Красочные живые обои с автоматической темной темой и экономно потребляющими батарею анимациями. Настройте их под себя!</string>
+  <string name="wallpaper_description_picker">Откройте для себя красочную подборку форм, дополненных плавными эффектами сдвига и приближения при пролистывании экранов рабочего стола и выходе из экрана блокировки.\nНастройте обои на свой вкус!</string>
+
+  <!-- TITLES -->
+
+  <string name="title_info">Информация </string>
+  <string name="title_apply_changes">Применить изменения</string>
+  <string name="title_feedback">Обратная связь</string>
+  <string name="title_licenses">Лицензии открытого ПО</string>
+
+  <!-- LABELS -->
+
+  <string name="label_ms">%1$s мс</string>
+  <string name="label_degrees">%1$s° </string>
+
+  <string name="action_close">Закрыть</string>
+  <string name="action_back">Назад</string>
+  <string name="action_open_link">Открыть внешнюю ссылку</string>
+  <string name="action_hide">Скрыть</string>
+  <string name="action_reset">Сбросить</string>
+  <string name="action_deactivate">Деактивировать</string>
+  <string name="action_select_all">Выбрать все</string>
+  <string name="action_continue">Продолжить</string>
+  <string name="action_open_app_info">Сведения о приложении</string>
+  <string name="action_set">Установить как обои</string>
+  <string name="action_learn_more">Подробнее</string>
+  <string name="action_help">Справка</string>
+  <string name="action_send_feedback">Отправить отзыв</string>
+  <string name="action_share">Поделиться</string>
+  <string name="action_share_description">Рассказать друзьям о Doodle</string>
+  <string name="action_email">Отправить эл. письмо</string>
+  <string name="action_email_description">Связаться с разработчиком</string>
+  <string name="action_rate">Оценить в Google Play</string>
+  <string name="action_rate_description">Поддержать разработку</string>
+  <string name="action_github">Doodle Android на GitHub</string>
+  <string name="action_github_description">Сообщить о проблеме</string>
+  <string name="action_language_select">Выбрать язык</string>
+  <!-- APPEARANCE -->
+
+  <string name="appearance_title">Внешний вид</string>
+  <string name="appearance_description">Дизайн и варианты цвета</string>
+  <string name="appearance_design">Дизайн</string>
+  <string name="appearance_design_doodle">Подборка дудлов из Pixel 4</string>
+  <string name="appearance_design_monet">Подборка Material You из Pixel 6</string>
+  <string name="appearance_design_anna">Живые обои от Анны Кёвечеш</string>
+  <string name="appearance_variant">Вариант</string>
+  <string name="appearance_night_mode">Ночной режим</string>
+  <string name="appearance_night_mode_description">Только тёмные цвета</string>
+  <string name="appearance_night_mode_on">Вкл.</string>
+  <string name="appearance_night_mode_off">Откл.</string>
+  <string name="appearance_colors_category">Цвета</string>
+  <string name="appearance_colors">Палитра цветов</string>
+  <string name="appearance_colors_description">Используется для расчета контрастности текста</string>
+  <string name="appearance_colors_description_dynamic">Используется системным движком тем</string>
+  <string name="appearance_colors_primary">Выбор основного цвета</string>
+  <string name="appearance_colors_secondary">Выбор вторичного цвета</string>
+  <string name="appearance_colors_tertiary">Выбор третичного цвета</string>
+  <string name="appearance_colors_info">На устройствах без поддержки палитры на основе цвета обоев (Android 11 и ниже) только основной цвет применяется для расчета контрастности текста на рабочем столе и покраски фона экрана недавних приложений.</string>
+  <string name="appearance_colors_info_dynamic">На устройствах с Android 12 и выше (с поддержкой палитры на основе цвета обоев) три выбранных цвета используются в формировании автоматической цветовой темы по всей системе.</string>
+  <string name="appearance_random">Случайный дизайн обоев</string>
+  <!-- PARALLAX -->
+
+  <string name="parallax_title">Сдвиг</string>
+  <string name="parallax_description">Эффекты пролистывания и наклона</string>
+  <string name="parallax_swipe_power_save">Учитывать режим энергосбережения</string>
+  <string name="parallax_tilt">Эффект наклона</string>
+  <string name="parallax_refresh_rate">Частота опроса датчика наклона</string>
+  <string name="parallax_damping">Гашение движений</string>
+  <string name="parallax_damping_description">Понизьте для большей плавности</string>
+  <string name="parallax_threshold">Порог движения</string>
+  <string name="parallax_threshold_description">Повысьте, чтобы приостановить отрисовку во время слабого движения</string>
+  <string name="parallax_tilt_power_save_description">Приостановить эффект наклона в режиме энергосбережения</string>
+
+  <!-- SIZE -->
+
+  <string name="size_title">Размер фигур</string>
+  <string name="size_description">Масштаб и эффект приближения</string>
+  <string name="size_category_zoom">Эффект приближения</string>
+  <string name="size_category_launcher">Приближение на рабочем столе</string>
+  <string name="size_category_unlock">Приближение на экране блокировки</string>
+  <string name="size_scale">Масштаб</string>
+  <string name="size_scale_description">Полезно для больших экранов и высоких разрешений</string>
+  <string name="size_zoom">Интенсивность приближения</string>
+  <string name="size_zoom_description">При увеличении камера отдаляется сильнее</string>
+  <string name="size_zoom_rotation">Вращать некоторые фигуры во время приближения</string>
+  <string name="size_zoom_rotation_description">Максимальный поворот в градусах</string>
+  <string name="size_zoom_power_save_description">Приостановить эффект приближения в режиме энергосбережения</string>
+  <string name="size_zoom_launcher">Отдалять при открытии шторки уведомлений или меню приложений</string>
+  <string name="size_zoom_launcher_description">Может не поддерживаться некоторыми устройствами</string>
+  <string name="size_zoom_damping">Затухание анимации</string>
+  <string name="size_zoom_damping_description">Активируйте и уменьшайте параметр для более плавного эффекта</string>
+  <string name="size_zoom_duration">Длительность эффекта приближения после разблокировки</string>
+  <string name="size_zoom_duration_description">Сократите для ускорения анимации</string>
+
+  <!-- OTHER -->
+
+  <string name="other_title">Другие настройки</string>
+  <string name="other_description">Отрисовка, язык и сброс настроек</string>
+  <string name="other_language">Язык приложения</string>
+  <string name="other_language_description">Большое спасибо всем переводчикам-добровольцам Transifex! Пожалуйста, посетите страницу проекта на GitHub, чтобы узнать, как вы можете помочь сделать живые обои Doodle доступными для вашего языка.</string>
+  <string name="other_language_system">Как в системе</string>
+  <string name="other_gpu">Аппаратное ускорение</string>
+  <string name="other_gpu_description">Выключите, если возникают сбои обоев</string>
+  <string name="other_gpu_info">Аппаратное ускорение доступно для Doodle только начиная с Android 8. Поэтому анимация обоев может быть немного дёрганой.</string>
+  <string name="other_launcher">Скрыть иконку с рабочего стола</string>
+  <string name="other_launcher_description">Настройки будут доступны только в системном приложении для установки обоев</string>
+  <string name="other_theme">Тема приложения</string>
+  <string name="other_theme_description">Опробуйте другую комбинацию</string>
+  <string name="other_theme_auto">Автомат.</string>
+  <string name="other_theme_light">Светлая</string>
+  <string name="other_theme_dark">Темная</string>
+  <string name="other_reset">Сбросить все настройки</string>
+  <string name="other_reset_description">Опция полезнее обычного удаления приложения, поскольку настройки хранятся в особом месте, чтобы применяться сразу после запуска устройства</string>
+
+  <!-- ABOUT -->
+
+  <string name="about_title">О приложении</string>
+  <string name="about_description">Сведения о разработчике и остальном</string>
+  <string name="about_version">Версия</string>
+  <string name="about_changelog">Список изменений</string>
+  <string name="about_changelog_description">Что нового?</string>
+  <string name="about_developer">Разработчик</string>
+  <string name="about_vending_description">Больше приложений от разработчика</string>
+  <string name="about_github_description">Исходный код</string>
+  <string name="about_translation_description">Помочь перевести Doodle</string>
+  <string name="about_privacy">Конфиденциальность</string>
+  <string name="about_privacy_description">Как обрабатываются ваши данные?</string>
+
+  <string name="msg_share">Зацени эти крутые живые обои: \nhttps://play.google.com/store/apps/details?id=com.tekheist.wallpaper</string>
+  <string name="msg_hide">Скрыть значок с рабочего стола?</string>
+  <string name="msg_random">Будут использованы все выбранные дизайны</string>
+  <string name="msg_random_warning">Случайный дизайн обоев все еще активен!</string>
+  <string name="msg_reset">Сбросить все настройки?</string>
+  <string name="msg_force_stop">Принудительная остановка, необходимая для внесения изменений</string>
+  <string name="msg_apply_colors">Измененные цвета будут применены к системе при следующем выключении экрана</string>
+  <string name="msg_apply_changes">Для (окончательного) применения новых параметров рекомендуется перезапустить работающую службу обоев. Этого нельзя сделать автоматически.\nПожалуйста, принудительно остановите Doodle из вашего системного приложения настроек и затем ещё раз установите Doodle в качестве обоев.</string>
+  <string name="msg_preview_missing">Произошла ошибка, установите живые обои Doodle вручную</string>
+
+  </resources>

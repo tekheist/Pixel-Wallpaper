@@ -1,0 +1,58 @@
+#### Parallax on page swipe doesn't work?
+
+You need to turn on background scrolling in your launcher's settings if you have disabled it before.
+
+#### Wallpaper animations stop working?
+
+This seems like a bug of MIUI caused by Xiaomi's aggressive app/service killing strategy.
+If you instead download the Google Wallpapers app and search in its live wallpaper section for Doodle, it should work. You should also enable autostart and disable battery saver restrictions for Doodle in your system's settings so that it's not being killed.
+
+#### "Set wallpaper" button disappears after applying the wallpaper?
+
+This is intended, you only have to apply it once. Select another wallpaper design in the appearance section to change it.
+
+#### Some wallpapers included in random mode are missing in the design selection?
+
+The design selection is scrollable horizontally.
+
+#### Changed wallpaper colors not updating on Android 12?
+
+You need to turn off your screen. The next time you turn it back on, the new colors should be applied to the whole system.
+
+If it still doesn't work, you probably have Samsung's One UI or another custom skin. Dynamic colors for live wallpapers are still not supported by Samsung, but Doodle provides you a workaround in the appearance section.
+
+#### Wallpaper is crashing?
+
+Please turn off hardware acceleration in "Other options" and try it again. Some devices seem to have issues with hardware accelerated rendering.
+
+If it still crashes, please open a new issue in the GitHub repository of Doodle with the crash log of your device.
+
+#### Wallpaper not applied to lockscreen?
+
+If your device doesn't display you the option to apply it to your lockscreen, then this is not supported by your device. Try searching for your device's name and this question on the Internet to get possible solutions.
+
+#### You don't want the wallpaper to be applied to your lockscreen?
+
+If your device doesn't display you the option to apply it only to your home screen, then this is not supported by your device.
+
+#### Custom shapes like on Pixel 4 are not available for Doodle collection?
+
+This feature is not supported by this app. The rendering method doesn't support dynamic changes like custom shapes, a replication of this feature would be way too time consuming.
+
+#### Blank screen is shown instead of settings in Doodle?
+
+That's a bug on a few devices out there, mostly with Android 8.1 or 9. For a workaround please activate the following option:
+
+OPTION_USE_SLIDING
+
+#### "Set" button is missing?
+
+If you tap on "Set wallpaper" and the fullscreen wallpaper preview opens, a "Set" button should be displayed by the system to apply the live wallpaper.
+However, if this button is missing for you, you have one of these devices where the manufacturer has messed up the original Android system.
+Sadly app developers like me are not responsible for such an unnecessary bug and I can't do anything except encouraging you to update your device to a newer, properly working Android version.
+
+#### Not enough options?
+
+There won't be many more wallpapers added to this app in the future. Doodle is about doodle-styled, flat-shaped (non-3D) original Google Pixel wallpapers (with a few exceptions), these criteria are not met by many of them out there.
+Every wallpaper design available in this app required days or weeks to implement, it's not as easy as you might think (shape extraction, dark version creation, optimization for parallax rendering and much more).
+When I find enough time beside university, I will expand the Material You collection and the collection of wallpapers by Anna Kövecses.
